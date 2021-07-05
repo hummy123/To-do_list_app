@@ -1,0 +1,2 @@
+rootProject.name = "Oragnise Me"
+include ':app'

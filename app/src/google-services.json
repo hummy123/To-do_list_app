@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358647213243",
+    "firebase_url": "https://organise-me-1623844702321-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "organise-me-1623844702321",
+    "storage_bucket": "organise-me-1623844702321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358647213243:android:624c8f0fc6b343f4180d9e",
+        "android_client_info": {
+          "package_name": "com.humzacov.oragniseme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358647213243-683qv0k34j6n301du1kpn5h2ks3v664k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv8vgrC1YGDx7c7kwhRtBAAKvh_DFCqiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358647213243-683qv0k34j6n301du1kpn5h2ks3v664k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

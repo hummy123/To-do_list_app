@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Oragnise Me</string>
+    <string name="first_task">Task 1 - %1$s</string>
+    <string name="second_task">Task 2 - %1$s</string>
+    <string name="third_task">Task 3 - %1$s</string>
+    <string name="activity_add_title">Add Reminder</string>
+    <string name="add_title">Title</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="add_description">Description*</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="add_photo">Photo*</string>
+    <string name="photo_button_description">Tap button to open camera</string>
+    <string name="add_audio">Audio*</string>
+    <string name="audio_button">Attach Audio</string>
+    <string name="audio_button_description">Tap button to attach audio recording to reminder.</string>
+    <string name="add_time">Time</string>
+    <string name="time_button_description">Tap button to select date and time for reminder.</string>
+    <string name="add_privacy">Privacy</string>
+    <string-array name="privacy_array">
+        <item>Public</item>>
+        <item>Private</item>
+    </string-array>
+    <string name="repeat">Repeat</string>
+    <string-array name="repeat_array">
+        <item>Never</item>
+        <item>Daily</item>
+        <item>Weekly</item>>
+        <item>Monthly</item>>
+        <item>Yearly</item>>
+    </string-array>
+    <string name="optional_field">* Marks an optional field.</string>
+    <string name="save_reminder">Save Reminder</string>
+    <string name="microphone_title">Record Audio</string>
+    <string name="microphone_record_start">Start recording</string>
+    <string name="microphone_record_finish">Finish recording</string>
+    <string name="microphone_play">Play</string>
+    <string name="microphone_continue">Continue</string>
+    <string name="microphone_stop">Stop</string>
+    <string name="microphone_save">Save Recording</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_reminder_instruction">Add a reminder</string>
+    <string name="reminder_image_description">Image associated with reminder</string>
+    <string name="location_button">Share Location</string>
+    <string name="add_location">Location</string>
+    <string name="toggle_button_description">Toggle between public reminders and your personal reminders</string>
+    <string name="microphone_activity">Record Microphone</string>
+
+</resources>

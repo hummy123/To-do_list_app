@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddReminder.Microphone.MicrophoneActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/microphone_activity"
+        android:textSize="64sp"
+        android:layout_gravity="center_horizontal"
+        app:drawableBottomCompat="@android:drawable/ic_btn_speak_now" />
+
+    <Button
+        android:id="@+id/start_recording_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/microphone_record_start"
+        android:textSize="32sp"
+        />
+
+    <Button
+        android:id="@+id/finish_recording_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/microphone_record_finish"
+        android:visibility="gone"
+        android:textSize="32sp"
+        />
+
+    <Button
+        android:id="@+id/play_audio_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/microphone_play"
+        android:enabled="false"
+        android:textSize="32sp"
+        />
+
+    <Button
+        android:id="@+id/stop_audio_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/microphone_stop"
+        android:visibility="gone"
+        android:textSize="32sp"
+        />
+
+    <Button
+        android:id="@+id/save_recording_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/microphone_save"
+        android:textSize="32sp"
+        android:enabled="false"
+        />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="320dp"
+    android:viewportWidth="180"
+    android:viewportHeight="320">
+
+  <group
+      android:translateX="7.4923601"
+      android:translateY="7.1640177">
+    <path
+        android:fillColor="#a4f4e5"
+        android:strokeColor="#a4f4e5"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M -6.4923601 -6.1640177 H 173.5076399 V 313.8359823 H -6.4923601 V -6.1640177 Z" />
+  </group>
+  <path
+      android:fillColor="#ffffff"
+      android:fillAlpha="0"
+      android:strokeColor="#ffffef"
+      android:strokeWidth="8.80676"
+      android:strokeLineJoin="round"
+      android:strokeLineCap="round"
+      android:pathData="M 14.403382 14.403382 H 165.596622 V 305.596622 H 14.403382 V 14.403382 Z" />
+  <path
+      android:strokeColor="#ffffff"
+      android:strokeWidth="1.40675"
+      android:pathData="M 178.2234,318.22189 c 0,0 -0.60324,-6.64994 -3.10628,-8.11605 -1.27074,-0.74431 -3.33308,-0.40566 -4.37468,0.63427 -1.04399,1.04231 -1.38134,3.10406 -0.63419,4.37515 1.4657,2.49356 8.11515,3.10663 8.11515,3.10663 z" />
+  <path
+      android:strokeColor="#ffffff"
+      android:strokeWidth="1.40674"
+      android:pathData="M 178.22328,1.7779768 c 0,0 -0.60324,6.64995 -3.10624,8.11607 -1.27073,0.7443102 -3.33304,0.4056602 -4.37462,-0.63427 -1.04397,-1.04233 -1.38132,-3.10407 -0.63419,-4.37517 1.46568,-2.49356 8.11505,-3.10663 8.11505,-3.10663 z" />
+  <path
+      android:strokeColor="#ffffff"
+      android:strokeWidth="1.40675"
+      android:pathData="M 1.7768378,318.2219 c 0,0 0.60325,-6.64994 3.10629,-8.11605 1.27074,-0.74432 3.33307,-0.40567 4.37467,0.63426 1.0439902,1.04232 1.3813402,3.10406 0.6342,4.37516 -1.4657,2.49356 -8.11516,3.10663 -8.11516,3.10663 z" />
+  <path
+      android:strokeColor="#ffffff"
+      android:strokeWidth="1.40675"
+      android:pathData="M 1.7768378,1.7779815 c 0,0 0.60325,6.64994 3.10629,8.11605 1.27074,0.7443195 3.33307,0.4056595 4.37467,-0.63426 1.0439902,-1.04232 1.3813402,-3.10406 0.6342,-4.37516 -1.4657,-2.49356 -8.11516,-3.10663 -8.11516,-3.10663 z" />
+</vector>
