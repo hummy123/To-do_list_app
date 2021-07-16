@@ -27,7 +27,6 @@ public class SignInPresenter {
 
     private final Activity signInActivity; //reference to activity that instantiated presenter
     private final com.humzacov.oragniseme.databinding.ActiviySignInBinding binding; //reference to UI components
-    private final UserModel userModel; //reference to model
 
     //two objects for google sign-in process
     private GoogleSignInClient mGoogleSignInClient;
@@ -40,11 +39,7 @@ public class SignInPresenter {
         this.signInActivity = activity;
         this.binding = binding;
         requestSignIn();
-        userModel = new UserModel();
-        animateLogo();
     }
-
-
 
     protected void requestSignIn() {
         /* Configure sign-in to request the user's ID, email address, and basic
@@ -61,8 +56,8 @@ public class SignInPresenter {
     protected void isSigned() {
         /* Check if the user is already signed in.
          * Launch main activity if signed,
-         * and do nothing if not signed.
-         */
+         * and do nothing if not signed. */
+
         gsa = GoogleSignIn.getLastSignedInAccount(signInActivity);
         if (gsa == null) {
             //if not signed in, let user click button to sign in
@@ -95,9 +90,7 @@ public class SignInPresenter {
             public void onComplete(@NonNull @NotNull Task<GoogleSignInAccount> task) {
                 try {
                     gsa = task.getResult(ApiException.class);
-                    // If signed in successfully update user model.
-                    //setUserModel(account);
-                    launch_home(); //launch home now that we've signed in
+                    launch_home(); //launch home now if sign in successful
                 } catch (ApiException e) {
                     // The ApiException status code indicates the detailed failure reason.
                     // Please refer to the GoogleSignInStatusCodes class reference for more information.
@@ -105,36 +98,6 @@ public class SignInPresenter {
                 }
             }
         });
-    }
-
-    private void setUserModel(GoogleSignInAccount account) {
-        userModel.email = account.getEmail();
-        Log.i(TAG, userModel.email);
-        userModel.userName = account.getDisplayName();
-        Log.i(TAG, userModel.userName);
-    }
-
-    protected void animateLogo() {
-        //instantiate object
-        AnimData animData = new AnimData();
-        // use timer to change (animate) text every second
-        final Timer timer = new Timer();
-        final TimerTask timerTask = new TimerTask() {
-            @Override
-            public void run() {
-                signInActivity.runOnUiThread(() -> {
-                    //get data
-                    String[] today = animData.getToday();
-
-                    //set text of TextViews
-                    binding.weekday.setText(today[0]);
-
-                    binding.firstAnimTask.setText(signInActivity.getString(R.string.first_task, today[1]));
-                    binding.secondAnimTask.setText(signInActivity.getString(R.string.second_task, today[2]));
-                    binding.thirdAnimTask.setText(signInActivity.getString(R.string.third_task, today[3]));
-                });
-            }};
-        timer.schedule(timerTask, 0, 1000);
     }
 
     protected View.OnClickListener signButtonListener = v -> signIntent();
